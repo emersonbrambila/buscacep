@@ -24,7 +24,7 @@ const App: React.FC = () => {
             });
 
         }).catch(__ => {
-            alert("errorMessage: Internal server error")
+            alert("Message: Cep inserido não encontrado!")
         });
 
     }
