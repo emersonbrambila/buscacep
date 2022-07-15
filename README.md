@@ -10,12 +10,12 @@ logradouro. Para tal crie uma um api rest com integração com o serviço ViaCEP
 aplicação web.
 </p>
 
-<p>
-Front-end em ReactJS
-Back-end em NodeJS
-Banco de dados Sqlite3
-ORM Knex
-</p>
+<ul>
+  <li>Front-end em ReactJS</li>
+  <li>Back-end em NodeJS</li>
+  <li>Banco de dados Sqlite3</li>
+  <li>ORM Knex</li>
+</ul>
 
 #### LAYOUT
 <hr>
