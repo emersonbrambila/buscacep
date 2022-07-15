@@ -26,7 +26,7 @@ class BuscaCepController {
         if (findCep === undefined) {
             const viaCepService = await findCepService(treatCepRequest);
             
-            if (viaCepService?.status === 200 && viaCepService?.data.erro === false) {
+            if (viaCepService?.status === 200 && !viaCepService?.data?.erro === undefined) {
 
                 const treatCep = clearCep(viaCepService.data.cep);
                 const treatData = {
